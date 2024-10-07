@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "/api";
+
+package youtube;
+
+service YouTubeService {
+  rpc GetThumbnail (ThumbnailRequest) returns (ThumbnailResponse);
+}
+
+message ThumbnailRequest {
+  string video_url = 1;
+}
+
+message ThumbnailResponse {
+  string thumbnail_url = 1;
+}
