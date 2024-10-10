@@ -1,4 +1,4 @@
-# echelon-test-task
+# YouTube thumbnail getter
 
 Сначала в корневой папке создаем папку api, в ней папку proto и прописываем нужный код. 
 ```bash
